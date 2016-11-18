@@ -1,0 +1,309 @@
+/*=================================================My Frame Work=========================================*/
+
+.container {
+    width: 1170px;
+    margin: auto
+}
+
+.main-color {color: #2ecc71}
+
+p {color: #919191;line-height: 1.6}
+
+h3 {color: #566366;font-size: 24px}
+
+h4 {color: #566366}
+
+hr {border-top: 1px solid #ccc;border-radius: 50%}
+
+/*=================================================My Header============================================*/
+
+header img {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    background-size : cover
+}
+
+header div {
+    position: relative;
+    text-align: center;
+    margin-top: 250px
+}
+
+header > div h1 {
+    color: #FFF;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    width:375px;
+    margin: auto;
+    padding: 6px
+}
+
+header div button {
+    background: none;
+    color: #FFF;
+    border: 1px solid #FFF;
+    width: 150px;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 22px;
+    cursor: pointer
+}
+
+header nav {
+    height: 60px;
+    color: #FFF;
+    margin-top: 230px;
+    background-color: #252e30
+}
+
+header nav h2 {float: left;margin-bottom: 0}
+
+header nav ul {
+    float: right;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: 0
+}
+
+header nav ul li {float: left;padding: 10px;cursor: pointer}
+
+header nav ul li.active,
+header nav ul li:hover {color: #2ecc71}
+
+/*=================================================My Section==========================================*/
+
+/* About-Me */
+
+ .about div {
+    width: 33.3333%;
+    float: left;
+    display: inline-block;
+    margin-top: 30px
+ }
+
+.about div p {margin-bottom: 0}
+
+.about-secn {
+    height: 469px;
+    background-color: #f2f2f1;
+    margin-top: 230px
+}
+
+.about-secn img {width: 40%;float: left}
+
+.about-secn .about-me {width: 60%;float: right}
+
+.about-me h3 {padding-top: 5px;padding-left: 50px;margin-bottom: 15px}
+
+.about-me p {padding-left: 50px;margin-bottom: 15px}
+
+.about-me div {width: 50%;float: left}
+
+.about-me div h4 {padding-left: 115px;padding-top: 8px;margin-bottom: 0}
+
+.about-me div p {padding-left: 115px;padding-top: 10px;margin: 0}
+
+.about-me div i {position: absolute;padding-left: 50px;padding-top: 25px;margin: 0}
+
+/* My-Skills */
+
+.skills {margin-top: 30px;height:  375px}
+
+.my-skills {
+    width: 48%;
+    float: left
+}
+
+.my-skills p {margin-top: 30px}
+
+.my-skills button {
+    background: none;
+    font-size: 20px;
+    border: 1px solid #2ecc71;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+.skills-bar {
+    width: 48%;
+    float: right;
+    padding-top: 25px;
+    margin-left: 4%
+}
+
+.technique h4 {margin-bottom: 10px}
+
+.technique div {
+    height: 25px;
+    background-color: #f2f2f1
+}
+
+.technique div span {
+    background-color: #2ecc71;
+    color: #FFF;
+    display: block;
+    height: 25px;
+    text-align:right;
+    font-weight:bold;
+    line-height:25px
+}
+
+/* Resume */
+
+.resume {height: 285px;background-color: #f2f2f1;text-align: center}
+
+
+.resume h3 {padding-top: 40px}
+
+.resume button {
+    background: none;
+    color: #2ecc71;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #2ecc71;
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+/* My-Education & Work-Experience */
+
+.my-edu {margin-top: 30px;height: 550px}
+.my-exp {margin-top: 30px;height: 785px}
+
+.education,
+.work-exp {width: 48%;float: left}
+
+.edu,
+.exp {width: 48%;float: right;margin-top: 59px;margin-left: 4%}
+
+.edu h4,
+.exp h4 {margin-bottom: -10px}
+
+.edu p,
+.exp p {font-size: 14px}
+
+.edu p span,
+.exp p span {font-weight: bold}
+
+.gpa,
+.long {
+    border: 1px solid #2ecc71;
+    color: #FFF;
+    background-color: #2ecc71;
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px
+}
+
+/* Testimonials */
+
+.testi {height: 285px;background-color: #f2f2f1;text-align: center}
+
+.testi div {padding-top: 60px}
+
+.testi div q {font-style: italic;line-height: 1.7;color: #888}
+
+.testi div h4 {padding-top: 8px}
+
+.testi div ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 10px
+}
+
+.testi div li {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #2ecc71;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer
+}
+
+.testi div li.active,
+.testi div li:hover {background-color: #2ecc71}
+
+/* Portfolio */
+
+.port {height: 1390px;text-align: center}
+
+.port h3 {padding-top: 40px}
+
+.port p {padding-bottom: 25px}
+
+.port div {float: left}
+
+.port div img {padding:8px}
+
+/* Contact-Me */
+
+.white {color: #FFF}
+.gray {color: #919191}
+
+.contact-me {height: 600px;background-color: #252e30;color: #FFF}
+
+.contact {float: left;width: 48%}
+
+.contact h3 {padding-top: 50px}
+
+aside form {width: 48%;margin-left: 4%;float: right}
+
+.formi form label {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 15px
+}
+
+.formi form {padding-top: 97px}
+
+.formi form input[type="text"] {
+    background-color: #4b5456;
+    color: #FFF;
+    width: 60%;
+    height: 20px;
+    margin-bottom: 8px;
+    border: none
+}
+
+.formi form textarea {
+    background-color: #4b5456;
+    width: 60%;
+    height:180px;
+    border: none
+}
+
+.formi form input[type="submit"] {
+    display: block;
+    width: 110px;
+    height: 35px;
+    margin-top: 25px;
+    background-color: #191f21;
+    color: #FFF;
+    border: none;
+    cursor: pointer
+}
+
+/*=================================================My Footer==========================================*/
+
+.footer {background-color: #191f21;height: 130px}
+
+.footi {text-align: center}
+
+.footi p {padding-top: 30px;margin-top: 0;font-size: 14px}
+
+.footi ul {list-style: none}
+
+.footi ul li {display: inline-block;color: #4b5456;cursor: pointer}
+
+.footi ul li:hover {color: #FFF}
